@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    
+</head>
+<body class="main">
+    <div class="mainDiv">
+        <div class="heading">
+           <p>SIMPLE CALCULATOR </p>
+        </div>
+        <div>
+            <input id="result" class="resultDiv" type="text" >
+        </div>
+        <div class="btnDiv">
+            <button class="clearBtn" onclick="clearAll()" > C </button>
+        </div>
+        <div class="btnDiv">
+            <button onclick="enterNum('7')"> 7 </button>
+            <button onclick="enterNum('8')"> 8 </button>
+            <button onclick="enterNum('9')"> 9 </button>
+            <button onclick="enterNum('*')"> x </button>
+        </div>
+        <div class="btnDiv">
+            <button onclick="enterNum('4')"> 4 </button>
+            <button onclick="enterNum('5')"> 5 </button>
+            <button onclick="enterNum('6')"> 6</button>
+            <button onclick="enterNum('-')"> - </button>
+        </div>
+        <div class="btnDiv">
+            <button onclick="enterNum('1')"> 1 </button>
+            <button onclick="enterNum('2')"> 2 </button>
+            <button onclick="enterNum('3')"> 3 </button>
+            <button onclick="enterNum('+')"> + </button>
+        </div>
+        <div class="btnDiv">
+            <button onclick="enterNum('0')"> 0 </button>
+            <button onclick="enterNum('.')"> . </button>
+            <button onclick="enterNum('/')" > / </button>
+            <button onclick="getResult()"> = </button>
+        </div>
+
+    </div>
+    
+    
+</body>
+<script src="app.js"></script>
+</html>
